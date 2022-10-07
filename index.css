@@ -1,0 +1,27 @@
+*{
+    margin: 0;padding: 0;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list-item{
+    justify-content: space-between;
+
+    text-decoration: none;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.logo-img{
+    width:4em;
+    height:4em;
+}
